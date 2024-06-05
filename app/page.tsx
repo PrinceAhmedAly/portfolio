@@ -8,6 +8,8 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
+import Approach from "../components/Approach";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
         <RecentProjects /> 
         <Clients />
         <Experience />
+        <Approach />
+        <Footer />
       </div>
     </main>
   );
