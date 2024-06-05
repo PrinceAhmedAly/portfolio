@@ -5,7 +5,7 @@ import { socialMedia } from '@/data'
 
 const Footer = () => {
   return (
-    <footer className="w-full" id="contact">
+    <footer className="w-full md:-mb-10" id="contact">
         <div className="w-full absolute left-0 -bottom-24 min-h-96">
             <img src="/footer-grid.svg" alt="footer-grid"
             className="w-full h-full opacity-50" />
@@ -31,7 +31,7 @@ const Footer = () => {
             <p className="md:text-base text-sm md:font-normal font-light">Copyright © 2024 Dreamer</p>
             <div className="flex items-center md:gap-3 gap-6">
                 {socialMedia.map((profile) => (
-                    <a key={profile.id} href="https:www.google.com" target="_blank">
+                    <a key={profile.id} href={profile.link} target="_blank">
                     <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 dark:bg-black-300 bg-purple rounded-lg border dark:border-black-300 border-slate-400 hover:bg-pink-300 dark:hover:bg-black-100 transition-all">
                         <img src={profile.img} alt={"social link"} width={20} height={20} />
                     </div>
