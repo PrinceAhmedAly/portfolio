@@ -32,7 +32,7 @@ export const gridItems = [
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-center",
+    titleClassName: "justify-start",
     img: "",
     spareImg: "",
   },
@@ -41,21 +41,21 @@ export const gridItems = [
     title: "Tech enthusiast with a passion for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
+    imgClassName: "absolute -left-32",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "/footer-grid.svg",
     spareImg: "/b4.svg",
   },
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a text to voice generator",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
-    spareImg: "/grid.svg",
+    spareImg: "/footer-grid.svg",
   },
   {
     id: 6,
@@ -69,20 +69,29 @@ export const gridItems = [
   },
 ];
 
+export const techStackIcons = [
+  "/tech/re.svg",
+  "/tech/tail.svg",
+  "/tech/ts.svg",
+  "/tech/three.svg",
+  "/tech/git.svg",
+  "/tech/fm.svg",
+];
+
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Masar - web application",
+    des: "Masar is a simple web app build for helping deaf people to reach their distinations in the university by scanning qr codes and exploring vidoes and texts.",
+    img: "/projects/masar.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://www.princeahmedaly.githubio.com/masar-latest",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Noon.com website",
+    des: "Cloning Noon.com website UI & Functionality using latest Next.js version and tailwind for styling.",
+    img: "/projects/noon.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -90,48 +99,48 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/projects/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Galaxy Bike website",
+    des: "Cloning Galaxy Bike website home page and product page with cart functionality & responsive using CSS Media Query..",
+    img: "/projects/galaxy.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://www.galaxy-bike.vercel.com",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with him was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
-    image: "./profile.svg"
+    image: "./profile.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
-    image: "./profile.svg"
+    image: "./profile.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
-    image: "./profile.svg"
+    image: "./profile.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
-    image: "./profile.svg"
+    image: "./profile.svg",
   },
 ];
 
@@ -178,7 +187,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Frontend and croos platform track",
+    title: "Frontend and cross platform track",
     desc: "Joined ITI frontend intern and studied modern web development skills like React/Next.js.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -194,7 +203,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    link: "https://github.com/adrian-m",
+    link: "https://fb.com/ahmedhamdan.page",
   },
   {
     id: 3,

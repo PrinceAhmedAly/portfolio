@@ -7,7 +7,7 @@ const MagicBtn = ({
     }) => {
    
   return (
-    <button className="relative inline-flex h-12 w-full overflow-hidden rounded-sm p-[1px] focus:outline-none md:w-60 md:mt-10" onClick={handleClick}>
+    <button className="relative inline-flex h-12 w-full overflow-hidden rounded-sm p-[1px] focus:outline-none md:w-60 md:mt-5" onClick={handleClick}>
       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
       <span className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-sm dark:bg-slate-950 bg-white dark:text-white px-7 text-sm font-medium text-black-100 backdrop-blur-3xl gap-2 ${otherClasses}`}>
         

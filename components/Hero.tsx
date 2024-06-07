@@ -4,10 +4,11 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicBtn from "./ui/MagicBtn";
 import { FaLocationArrow } from "react-icons/fa";
 import { HiDocumentDownload } from "react-icons/hi";
+import SocialIcons from "./ui/SocialIcons";
 
 const Hero = () => {
   return (
-    <div className="bp-20 pt-36">
+    <div className="pb-20 pt-32">
       {/* spotlight */}
       <div>
         <Spotlight
@@ -31,39 +32,40 @@ const Hero = () => {
       {/* heading */}
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            <h2 className="uppercase tracking-widest text-xs text-center dark:text-blue-100 text-black-100 max-w-80">
-                Dynamic web magic with next.js
-            </h2>
-            <TextGenerateEffect 
+          <h2 className="uppercase tracking-widest text-xs text-center dark:text-blue-100 text-black-100 max-w-80">
+            Dynamic web magic with next.js
+          </h2>
+          <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming concepts into seamless User Experiences"
-            />
-            
-            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                hey I&apos;m Ahmed, Front End Developer from Egypt
-            </p>
+          />
 
-            {/* action btns */}
-            <div className="flex gap-2 flex-col md:flex-row">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            hey I&apos;m Ahmed, Front End Developer from Egypt
+          </p>
 
-            <a href="" className="">
-                <MagicBtn 
+          <div className="my-5 md:my-1">
+            <SocialIcons />
+          </div>
+
+          {/* action btns */}
+          <div className="flex gap-2 flex-col md:flex-row">
+            <a href="#projects">
+              <MagicBtn
                 title="Show My Work"
                 icon={<FaLocationArrow />}
-                position= 'right'
-                />
-                
+                position="right"
+              />
             </a>
 
-            <a href="./myCV.pdf" download={'./myCV.pdf'} className="">
-                <MagicBtn 
+            <a href="./myCV.pdf" download={"./myCV.pdf"}>
+              <MagicBtn
                 title="Download CV"
                 icon={<HiDocumentDownload />}
-                position= 'right'
-                />
-                
+                position="right"
+              />
             </a>
-            </div>
+          </div>
         </div>
       </div>
     </div>
