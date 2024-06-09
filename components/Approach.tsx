@@ -17,7 +17,7 @@ const Approach = () => {
           <Card
             title="Planning and Strategy"
             icon={<AceternityIcon order="Phase 1" />}
-            description="Coolaporate with you"
+            description="Define project goals, scope and strategy to ensure a solid foundation"
           >
             <CanvasRevealEffect
               animationSpeed={5.1}
@@ -25,7 +25,7 @@ const Approach = () => {
             />
           </Card>
           <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2"/>}
-          description="Coolaporate with you">
+          description="Develop the project with regular updates to keep you informed">
             <CanvasRevealEffect
               animationSpeed={3}
               containerClassName="bg-black"
@@ -37,7 +37,7 @@ const Approach = () => {
             />
           </Card>
           <Card title="Test & Deploy" icon={<AceternityIcon order="Phase 3"/>}
-          description="Coolaporate with you">
+          description="Fully test then deploy the project, ensuring quality and performance">
             <CanvasRevealEffect
               animationSpeed={3}
               containerClassName="bg-sky-600"
@@ -66,7 +66,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[20rem] md:h-[35rem]"
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[20rem] md:h-[30rem]"
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />

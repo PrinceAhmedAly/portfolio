@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.png",
     spareImg: "",
   },
   {
@@ -53,7 +53,7 @@ export const gridItems = [
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
+    titleClassName: "justify-center md:justify-end lg:justify-end",
     img: "/b5.svg",
     spareImg: "/footer-grid.svg",
   },
@@ -70,12 +70,15 @@ export const gridItems = [
 ];
 
 export const techStackIcons = [
-  "/tech/re.svg",
+  "/tech/html.svg",
+  "/tech/css.svg",
+  "/tech/js.svg",
+  "/tech/bs.svg",
   "/tech/tail.svg",
   "/tech/ts.svg",
-  "/tech/three.svg",
+  "/tech/re.svg",
+  "/tech/next.svg",
   "/tech/git.svg",
-  "/tech/fm.svg",
 ];
 
 export const projects = [
@@ -84,7 +87,7 @@ export const projects = [
     title: "Masar - web application",
     des: "Masar is a simple web app build for helping deaf people to reach their distinations in the university by scanning qr codes and exploring vidoes and texts.",
     img: "/projects/masar.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/tech/html.svg", "/tech/css.svg", "/tech/re.svg", "/tech/tail.svg",],
     link: "https://www.princeahmedaly.githubio.com/masar-latest",
   },
   {
@@ -92,23 +95,15 @@ export const projects = [
     title: "Noon.com website",
     des: "Cloning Noon.com website UI & Functionality using latest Next.js version and tailwind for styling.",
     img: "/projects/noon.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/tech/html.svg", "/tech/css.svg", "/tech/next.svg", "/tech/tail.svg",],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/projects/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
     title: "Galaxy Bike website",
     des: "Cloning Galaxy Bike website home page and product page with cart functionality & responsive using CSS Media Query..",
     img: "/projects/galaxy.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/tech/html.svg", "/tech/css.svg", "/tech/js.svg",],
     link: "https://www.galaxy-bike.vercel.com",
   },
 ];
@@ -148,32 +143,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "/companies/cloud.svg",
+    nameImg: "/companies/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/companies/app.svg",
+    nameImg: "/companies/appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "/companies/host.svg",
+    nameImg: "/companies/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/companies/s.svg",
+    nameImg: "/companies/streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "/companies/dock.svg",
+    nameImg: "/companies/dockerName.svg",
   },
 ];
 
@@ -197,17 +192,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/icons/git.svg",
     link: "https://github.com/PrinceAhmedAly",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/icons/fb.png",
     link: "https://fb.com/ahmedhamdan.page",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/icons/link.svg",
     link: "https://www.linkedin.com/in/ahmed-hamdan-cr7/",
   },
 ];

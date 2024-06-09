@@ -17,7 +17,7 @@ const RecentProjects = () => {
             {projects.map(({id, title, des, img, iconLists, link}) => (
                 <div key={id} className="h-[28rem] lg:min-h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] md:w-[35vw]">
                     <PinContainer title={title} href={"link"}>
-                    <div className="relative flex items-center justify-center w-[80vw] md:w-[35vw] overflow-hidden h-[29vh] sm:h-[32vh] md:h-[28vh] lg:h-[35vh] mb-10">
+                    <div className="relative flex items-center justify-center w-[80vw] md:w-[35vw] overflow-hidden h-[27vh] sm:h-[32vh] md:h-[28vh] lg:h-[35vh] mb-10">
                         <div className="relative w-full h-full overflow-hidden rounded-2xl lg:rounded-3xl bg-[#13162d]">
                             <Image src="/bg.png" alt="bg-img" width={20} height={20} layout="responsive"/>
                         </div>
@@ -51,7 +51,7 @@ const RecentProjects = () => {
                         {/* live link */}
                         <div className="flex justify-center items-center">
                             <a href={link} target="_blank" className="flex justify-center items-center">
-                            <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</p>
+                            <p className="flex lg:text-xl md:text-xs text-sm text-purple">Live Site</p>
                             <FaLocationArrow className="ms-3"
                             color="#CBACF9"/>
                             </a>

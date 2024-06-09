@@ -83,9 +83,12 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
+              width={200}
+              height={200}
+              layout="responsive"
               className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
@@ -96,10 +99,12 @@ export const BentoGridItem = ({
           } `}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
-              //   width={220}
+                width={200}
+                height={200}
+                layout="responsive"
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -139,7 +144,7 @@ export const BentoGridItem = ({
                 {techStackIcons.map((icon, index) => (
                   <div
                     key={index}
-                    className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                    className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-10 h-10 flex justify-center items-center"
                     style={{
                       transform: `translateX(-${5 * index * 2}px)`,
                     }}

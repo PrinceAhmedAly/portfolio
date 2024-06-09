@@ -8,7 +8,7 @@ import SocialIcons from "./ui/SocialIcons";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-32">
+    <div className="pb-14 pt-32">
       {/* spotlight */}
       <div>
         <Spotlight
