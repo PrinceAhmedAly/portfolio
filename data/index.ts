@@ -178,14 +178,14 @@ export const workExperience = [
     title: "Frontend Intern at Barmaga Academy",
     desc: "Learned how to develop web pages from Figma/AdobeXD files and worked as a UI Developer",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/b-ac.png",
   },
   {
     id: 2,
     title: "Frontend and cross platform track",
     desc: "Joined ITI frontend intern and studied modern web development skills like React/Next.js.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/iti.png",
   },
 ];
 
