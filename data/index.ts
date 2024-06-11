@@ -88,7 +88,7 @@ export const projects = [
     des: "Masar is a simple web app build for helping deaf people to reach their distinations in the university by scanning qr codes and exploring vidoes and texts.",
     img: "/projects/masar.png",
     iconLists: ["/tech/html.svg", "/tech/css.svg", "/tech/re.svg", "/tech/tail.svg",],
-    link: "https://www.princeahmedaly.githubio.com/masar-latest",
+    link: "https://princeahmedaly.github.io/masar-latest/",
   },
   {
     id: 2,
@@ -96,7 +96,7 @@ export const projects = [
     des: "Cloning Noon.com website UI & Functionality using latest Next.js version and tailwind for styling.",
     img: "/projects/noon.png",
     iconLists: ["/tech/html.svg", "/tech/css.svg", "/tech/next.svg", "/tech/tail.svg",],
-    link: "/ui.yoom.com",
+    link: "https://github.com/ahmediramadan01/noon-clone",
   },
   {
     id: 3,
@@ -104,7 +104,7 @@ export const projects = [
     des: "Cloning Galaxy Bike website home page and product page with cart functionality & responsive using CSS Media Query..",
     img: "/projects/galaxy.png",
     iconLists: ["/tech/html.svg", "/tech/css.svg", "/tech/js.svg",],
-    link: "https://www.galaxy-bike.vercel.com",
+    link: "https://galaxy-bike.vercel.app/index.html",
   },
 ];
 
