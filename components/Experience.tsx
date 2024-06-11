@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div
       className="py-10 w-full"
-      id="testimonials"
+      id="workExp"
     >
       <h2 className="heading">
         My 
